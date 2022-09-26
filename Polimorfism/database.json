@@ -1,0 +1,25 @@
+[
+  {
+    "Database": "users"
+  },
+  [
+    {
+      "Name": "Diogenes",
+      "Age": 37,
+      "Number": "1",
+      "Active": true
+    },
+    {
+      "Name": "Elis",
+      "Age": 42,
+      "Number": "2",
+      "Active": true
+    },
+    {
+      "Name": "Otavio",
+      "Age": 6,
+      "Number": "3",
+      "Active": true
+    }
+  ]
+]
