@@ -1,7 +1,7 @@
 from shopp_models import ShoppingCart
 from shopp_models.goods import Good
 
-
+# CHATGPT
 # Aggregation is an association relationship between two classes in object-oriented programming, where one class represents a whole object (the container) and contains or is composed of other objects 
 # (the components or parts). The relationship implies that the container class has a "has-a" relationship with the component class. Aggregation is a weaker form of association compared to composition, 
 # as it allows the component objects to exist independently outside the container.
