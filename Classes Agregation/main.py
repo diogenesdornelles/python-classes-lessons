@@ -15,6 +15,8 @@ from shopp_models.goods import Good
 
 # Add objects from another class to a class. Ordinary, a list is an attribute of class that are aggregate other.
 
+# In the example below, we have the 'container' shopping cart and several products, which are added or removed by their own methods. Products, once instantiated, exist independently of the container.
+
 banana = Good('banana', 5, 3)
 mamao = Good('papaya', 10, 2)
 apple = Good('apple', 4, 3)
