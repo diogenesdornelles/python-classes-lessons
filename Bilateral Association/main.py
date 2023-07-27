@@ -1,6 +1,7 @@
 from modules import Person
 from modules import House
 
+# CHATGPT:
 # In object-oriented programming, the term "bilateral association" typically refers to an association between two classes where both classes have a relationship with each other. 
 # This means that both classes are aware of each other and can interact directly.
 # There are two common types of bilateral associations:
@@ -16,6 +17,9 @@ from modules import House
 # https://www.youtube.com/watch?v=OXu-Q2NoS-Y&list=PLAgbpJQADBGLo24x_xBwGtTDO-bjwrFb_&index=12
 # Orientação a Objetos em Python — Associação Bilateral
 # Instantiate objects.
+
+# In the example below, 'persons' are instantiated (Person) and each one has a 'house', created from a 'House' object. Every house belongs to someone. 
+# And every house has an owner. The relationship is established by defining specific attributes for it.
 
 joanas_house = House()
 pedros_house = House('September 7th Street')
