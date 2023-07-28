@@ -10,11 +10,15 @@ from repository import Repository
 # The difference lies in the strength of the relationship and the lifecycle management of the component objects.
 
 
+
 # https://www.youtube.com/watch?v=px7UphXv4B8&list=PLAgbpJQADBGLo24x_xBwGtTDO-bjwrFb_&index=22
 # Orientação a Objetos em Python — Composição de Classes
 
 # Composition: Relation used to escape the idea of inheritance. Other classes will compose the behavior that a
 # main class will have.
+
+# In the example below, we have the entity 'Repository' which in its composition (attributes) receives objects from two other classes that keep in their methods the operations (Insert, Select)
+# related to the manipulation of the database. With the destruction of the composite class, the component objects receive the same fate
 
 
 
